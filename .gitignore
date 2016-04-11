@@ -72,3 +72,6 @@ test_report.out
 
 # Testing
 shelve_test.*
+
+# Testing outputs
+output.dat
