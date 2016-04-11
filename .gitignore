@@ -60,3 +60,15 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# Wing IDE project
+wingproj.wpr
+
+# Testflo output
+test_report.out
+
+# PyCharm Stuff
+.idea
+
+# Testing
+shelve_test.*
