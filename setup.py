@@ -17,9 +17,8 @@ kwargs = {'author': 'Herb Schilling',
  'maintainer': 'Herb Schilling',
  'maintainer_email': 'hschilling@nasa.gov',
  'name': 'NAS_Access',
- 'package_data': {'NAS_Access': ['input.dat']},
  'package_dir': {'': 'src'},
- 'packages': ['NAS_Access', 'NAS_Access.test'],
+ 'packages': ['NAS_Access','NAS_Access.test' , 'NAS_Access.examples'],
  'include_package_data': True,
  'url': 'http://github.com/OpenMDAO/NAS_Access.git',
  'version': '0.1',
@@ -27,4 +26,12 @@ kwargs = {'author': 'Herb Schilling',
 
 
 setup(**kwargs)
+
+# 'package_data': {'NAS_Access': ['input.dat','examples/OTAC_nas_access.py']},
+
+
+ # 'data_files':[('', ['examples/OTAC_nas_access.py', 'doe_input.dat', 'read_doe_csv.py', 'run_OTAC_DOE_comp_nas_access.py']),
+ #                  ],
+
+
 

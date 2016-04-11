@@ -1,1 +1,3 @@
 recursive-include src/NAS_Access/test *.py
+recursive-include src/NAS_Access/test *.dat
+recursive-include src/NAS_Access/examples *
